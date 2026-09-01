@@ -2,3 +2,8 @@
 *.zip
 __pycache__/
 *.pyc
+Data/
+lod3/
+appearence_rect2/
+ces2/
+ces2_mrcnn/
