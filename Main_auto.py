@@ -38,8 +38,9 @@ np.random.seed(RANDOM_SEED)
 random.seed(RANDOM_SEED)
 # ────────────────────────────────────────────────────────────────────────────
 
-# Use the workspace root (parent of this file's directory) as default input location.
-DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+# Use the workspace root (this file's directory -- repo layout is flat, no
+# LoD3Framework--main/ wrapper) as default input location.
+DIRECTORY = os.path.abspath(os.path.dirname(__file__))
 
 # ── CONFIGURE THIS before each run ──────────────────────────────────────────
 TILE = '6434'   # folder name inside Data/ (e.g. '6431', '6528', ...)

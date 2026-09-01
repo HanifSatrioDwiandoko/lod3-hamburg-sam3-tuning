@@ -20,7 +20,7 @@ import argparse
 # Paths – edit these if the conda environments were installed elsewhere
 # ---------------------------------------------------------------------------
 WORKSPACE   = os.path.dirname(os.path.abspath(__file__))
-MAIN_DIR    = os.path.join(WORKSPACE, "LoD3Framework--main")
+MAIN_DIR    = WORKSPACE  # repo layout is flat -- no LoD3Framework--main/ wrapper
 MRCNN_DIR   = os.path.join(MAIN_DIR,  "Mask_RCNN-2.1")
 DATA_DIR    = os.path.join(WORKSPACE, "Data")
 LOD3_DIR    = os.path.join(WORKSPACE, "lod3")
